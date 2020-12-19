@@ -8,7 +8,7 @@ pipeline {
                 sh "mvn clean -f my-app"
             }
         }
-        stage('--test--') {
+        stage('--test-- and testing -----') {
             steps {
                 sh "mvn test -f my-app"
             }
